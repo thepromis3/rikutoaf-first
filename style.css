@@ -7,6 +7,10 @@ body {
     flex-direction: column;
 }
 
+
+/* This is where the header starts */
+
+
 .header {
     display: flex;
     background-color: #1f2937;
@@ -138,3 +142,88 @@ body {
 }
 
 
+/* This is where the third section starts */
+
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 50px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* This is where the call to action section starts */
+
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.blue-box {
+    padding: 10px 100px;
+    background-color: #3882f6;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.blue-box-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blue-box-left .call {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+}
+
+.blue-box-left .sign {
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+    margin-top: -20px;
+    margin-padding: 0;
+}
+
+.blue-box-right {
+    display: flex;
+    align-items: center;
+}
+
+.blue-box-right button {
+    background-color: #3882f6;
+    border: solid;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+
+/* This is where the footer starts */
+
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+body {
+
+}
+
+.whole-webpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 0px 150px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header-logo {
+    width: 50px;
+}
+
+.top-right-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.top-right-links a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+font-size: 48px;
+font-weight: 800;
